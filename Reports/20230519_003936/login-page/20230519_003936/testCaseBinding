@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/login-success","testCaseId":"Test Cases/login-success","iterationVariableName":""}
+{"testCaseName":"Test Cases/login-fail-account-not-registered","testCaseId":"Test Cases/login-fail-account-not-registered","iterationVariableName":""}
+{"testCaseName":"Test Cases/login-fail-incorrect-captcha","testCaseId":"Test Cases/login-fail-incorrect-captcha","iterationVariableName":""}
+{"testCaseName":"Test Cases/login-fail-incorrect-password","testCaseId":"Test Cases/login-fail-incorrect-password","iterationVariableName":""}
+{"testCaseName":"Test Cases/login-fail-incorrect-username","testCaseId":"Test Cases/login-fail-incorrect-username","iterationVariableName":""}

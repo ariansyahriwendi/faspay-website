@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login-fail-incorrect-captcha</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75dd62f9-ee8b-4906-9ff0-596ce71a6fc5</testCaseGuid>
+</TestCaseEntity>

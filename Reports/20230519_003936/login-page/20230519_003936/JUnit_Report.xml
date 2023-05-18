@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login-page" time="52.801" tests="5" failures="0" errors="1">
+   <testsuite name="login-page" tests="5" failures="0" errors="1" time="52.801" skipped="0" timestamp="2023-05-19 00:40:35" hostname="macbookpro - 192.168.220.253" id="Test Suites/login-page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/git/faspay-website/Reports/20230519_003936/login-page/20230519_003936"/>
+         <property name="logFiles" value="/Users/macbookpro/git/faspay-website/Reports/20230519_003936/login-page/20230519_003936/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - 192.168.220.253"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.220.253"/>
+         <property name="sessionId" value="e5276767eaf3686f358af77a88c2489a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/login-success" time="13.297" classname="Test Cases/login-success" status="PASSED">
+         <system-out><![CDATA[2023-05-19 00:40:35 - [TEST_CASE][PASSED] - Test Cases/login-success: Test Cases/login-success
+
+2023-05-19 00:40:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-19 00:40:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-19 00:40:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-19 00:40:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-19 00:40:41 - [TEST_STEP][PASSED] - navigateToUrl("https://faspay.co.id/merchantpage/auth/login"): Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:40:45 - [MESSAGE][PASSED] - Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount"), "username"): Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:40:46 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:40:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:40:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha"), "wjgpY"): Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:40:48 - [MESSAGE][PASSED] - Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/button_Login")): Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:40:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-19 00:40:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-fail-account-not-registered" time="10.964" classname="Test Cases/login-fail-account-not-registered" status="PASSED">
+         <system-out><![CDATA[2023-05-19 00:40:49 - [TEST_CASE][PASSED] - Test Cases/login-fail-account-not-registered: Test Cases/login-fail-account-not-registered
+
+2023-05-19 00:40:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-19 00:40:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-19 00:40:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-19 00:40:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-19 00:40:52 - [TEST_STEP][PASSED] - navigateToUrl("https://faspay.co.id/merchantpage/auth/login"): Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:40:55 - [MESSAGE][PASSED] - Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount"), "not registered account"): Text 'not registered account' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:40:56 - [MESSAGE][PASSED] - Text 'not registered account' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:40:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:40:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:40:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha"), "wjgpY"): Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:40:57 - [MESSAGE][PASSED] - Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/button_Login")): Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:40:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password"), 0): Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:40:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-19 00:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:40:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-19 00:41:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-fail-incorrect-captcha" time="7.355" classname="Test Cases/login-fail-incorrect-captcha" status="ERROR">
+         <error type="ERROR" message="Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)
+"/>
+         <system-out><![CDATA[2023-05-19 00:41:00 - [TEST_CASE][ERROR] - Test Cases/login-fail-incorrect-captcha: Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)
+
+
+2023-05-19 00:41:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-19 00:41:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-19 00:41:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-19 00:41:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-19 00:41:02 - [TEST_STEP][PASSED] - navigateToUrl("https://faspay.co.id/merchantpage/auth/login"): Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:04 - [MESSAGE][PASSED] - Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount"), "username"): Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:05 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha"), "incorrect captcha"): Text 'incorrect captcha' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:06 - [MESSAGE][PASSED] - Text 'incorrect captcha' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/button_Login")): Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:07 - [TEST_STEP][ERROR] - verifyElementText(findTestObject(null), "Incorrect Captcha"): Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)
+
+
+2023-05-19 00:41:07 - [MESSAGE][WARNING] - Test object id is null
+
+2023-05-19 00:41:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-19 00:41:07 - [MESSAGE][ERROR] - Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-05-19 00:41:00 - [TEST_CASE][ERROR] - Test Cases/login-fail-incorrect-captcha: Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-fail-incorrect-password" time="11.192" classname="Test Cases/login-fail-incorrect-password" status="PASSED">
+         <system-out><![CDATA[2023-05-19 00:41:07 - [TEST_CASE][PASSED] - Test Cases/login-fail-incorrect-password: Test Cases/login-fail-incorrect-password
+
+2023-05-19 00:41:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-19 00:41:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-19 00:41:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-19 00:41:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-19 00:41:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-19 00:41:11 - [TEST_STEP][PASSED] - navigateToUrl("https://faspay.co.id/merchantpage/auth/login"): Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:14 - [MESSAGE][PASSED] - Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount"), "username"): Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:15 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword"), "NaRTu7UBtmorHn0Q98cIcODtF6WCyLoK"): Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha"), "wjgpY"): Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:16 - [MESSAGE][PASSED] - Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/button_Login")): Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password"), 0): Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-19 00:41:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:41:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-19 00:41:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login-fail-incorrect-username" time="9.274" classname="Test Cases/login-fail-incorrect-username" status="PASSED">
+         <system-out><![CDATA[2023-05-19 00:41:18 - [TEST_CASE][PASSED] - Test Cases/login-fail-incorrect-username: Test Cases/login-fail-incorrect-username
+
+2023-05-19 00:41:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-19 00:41:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-19 00:41:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-19 00:41:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-19 00:41:21 - [TEST_STEP][PASSED] - navigateToUrl("https://faspay.co.id/merchantpage/auth/login"): Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:23 - [MESSAGE][PASSED] - Navigate to 'https://faspay.co.id/merchantpage/auth/login' successfully
+
+2023-05-19 00:41:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount"), "incorrect username"): Text 'incorrect username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:24 - [MESSAGE][PASSED] - Text 'incorrect username' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount'
+
+2023-05-19 00:41:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword'
+
+2023-05-19 00:41:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha"), "wjgpY"): Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:25 - [MESSAGE][PASSED] - Text 'wjgpY' is set on object 'Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha'
+
+2023-05-19 00:41:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/button_Login")): Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome to Faspay Merchant Page/button_Login' is clicked on
+
+2023-05-19 00:41:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password"), 0): Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:41:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-19 00:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password' is present
+
+2023-05-19 00:41:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-19 00:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-19 00:40:35 - [TEST_SUITE][ERROR] - login-page: Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-05-19 00:40:35 - [TEST_SUITE][ERROR] - login-page: Test Cases/login-fail-incorrect-captcha FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at login-fail-incorrect-captcha.run(login-fail-incorrect-captcha:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684431576907.run(TempTestSuite1684431576907.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login-page,Chrome 113.0.0.0,,,2023-05-19 00:40:35,2023-05-19 00:41:27,52.801s,ERROR
+,,,,,,,
+Test Cases/login-success,Chrome 113.0.0.0,,,2023-05-19 00:40:35,2023-05-19 00:40:49,13.297s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 00:40:36,2023-05-19 00:40:41,5.319s,PASSED
+"navigateToUrl(""https://faspay.co.id/merchantpage/auth/login"")",Chrome 113.0.0.0,,,2023-05-19 00:40:41,2023-05-19 00:40:45,3.436s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount""), ""username"")",Chrome 113.0.0.0,,,2023-05-19 00:40:45,2023-05-19 00:40:46,1.420s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 113.0.0.0,,,2023-05-19 00:40:46,2023-05-19 00:40:47,0.548s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha""), ""wjgpY"")",Chrome 113.0.0.0,,,2023-05-19 00:40:47,2023-05-19 00:40:48,0.861s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/button_Login""))",Chrome 113.0.0.0,,,2023-05-19 00:40:48,2023-05-19 00:40:48,0.672s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-19 00:40:48,2023-05-19 00:40:49,0.279s,PASSED
+,,,,,,,
+Test Cases/login-fail-account-not-registered,Chrome 113.0.0.0,,,2023-05-19 00:40:49,2023-05-19 00:41:00,10.964s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 00:40:49,2023-05-19 00:40:52,2.487s,PASSED
+"navigateToUrl(""https://faspay.co.id/merchantpage/auth/login"")",Chrome 113.0.0.0,,,2023-05-19 00:40:52,2023-05-19 00:40:55,3.293s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount""), ""not registered account"")",Chrome 113.0.0.0,,,2023-05-19 00:40:55,2023-05-19 00:40:56,1.051s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 113.0.0.0,,,2023-05-19 00:40:56,2023-05-19 00:40:56,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha""), ""wjgpY"")",Chrome 113.0.0.0,,,2023-05-19 00:40:56,2023-05-19 00:40:57,0.808s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/button_Login""))",Chrome 113.0.0.0,,,2023-05-19 00:40:57,2023-05-19 00:40:58,0.383s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password""), 0)",Chrome 113.0.0.0,,,2023-05-19 00:40:58,2023-05-19 00:40:59,1.724s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-19 00:40:59,2023-05-19 00:41:00,0.223s,PASSED
+,,,,,,,
+Test Cases/login-fail-incorrect-captcha,Chrome 113.0.0.0,,,2023-05-19 00:41:00,2023-05-19 00:41:07,7.355s,ERROR
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 00:41:00,2023-05-19 00:41:02,2.395s,PASSED
+"navigateToUrl(""https://faspay.co.id/merchantpage/auth/login"")",Chrome 113.0.0.0,,,2023-05-19 00:41:02,2023-05-19 00:41:04,1.593s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount""), ""username"")",Chrome 113.0.0.0,,,2023-05-19 00:41:04,2023-05-19 00:41:05,1.010s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 113.0.0.0,,,2023-05-19 00:41:05,2023-05-19 00:41:06,0.520s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha""), ""incorrect captcha"")",Chrome 113.0.0.0,,,2023-05-19 00:41:06,2023-05-19 00:41:06,0.803s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/button_Login""))",Chrome 113.0.0.0,,,2023-05-19 00:41:06,2023-05-19 00:41:07,0.407s,PASSED
+"verifyElementText(findTestObject(null), ""Incorrect Captcha"")",Chrome 113.0.0.0,,,2023-05-19 00:41:07,2023-05-19 00:41:07,0.137s,ERROR
+,,,,,,,
+Test Cases/login-fail-incorrect-password,Chrome 113.0.0.0,,,2023-05-19 00:41:07,2023-05-19 00:41:18,11.192s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 00:41:07,2023-05-19 00:41:11,3.370s,PASSED
+"navigateToUrl(""https://faspay.co.id/merchantpage/auth/login"")",Chrome 113.0.0.0,,,2023-05-19 00:41:11,2023-05-19 00:41:14,3.051s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount""), ""username"")",Chrome 113.0.0.0,,,2023-05-19 00:41:14,2023-05-19 00:41:15,0.974s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword""), ""NaRTu7UBtmorHn0Q98cIcODtF6WCyLoK"")",Chrome 113.0.0.0,,,2023-05-19 00:41:15,2023-05-19 00:41:15,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha""), ""wjgpY"")",Chrome 113.0.0.0,,,2023-05-19 00:41:15,2023-05-19 00:41:16,0.703s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/button_Login""))",Chrome 113.0.0.0,,,2023-05-19 00:41:16,2023-05-19 00:41:16,0.381s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password""), 0)",Chrome 113.0.0.0,,,2023-05-19 00:41:16,2023-05-19 00:41:18,1.553s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-19 00:41:18,2023-05-19 00:41:18,0.205s,PASSED
+,,,,,,,
+Test Cases/login-fail-incorrect-username,Chrome 113.0.0.0,,,2023-05-19 00:41:18,2023-05-19 00:41:27,9.274s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-19 00:41:19,2023-05-19 00:41:21,2.479s,PASSED
+"navigateToUrl(""https://faspay.co.id/merchantpage/auth/login"")",Chrome 113.0.0.0,,,2023-05-19 00:41:21,2023-05-19 00:41:23,1.711s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_USER NAME_LoginFormaccount""), ""incorrect username"")",Chrome 113.0.0.0,,,2023-05-19 00:41:23,2023-05-19 00:41:24,1.048s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormpassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 113.0.0.0,,,2023-05-19 00:41:24,2023-05-19 00:41:24,0.542s,PASSED
+"setText(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/input_PASSWORD_LoginFormcaptcha""), ""wjgpY"")",Chrome 113.0.0.0,,,2023-05-19 00:41:24,2023-05-19 00:41:25,0.801s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/button_Login""))",Chrome 113.0.0.0,,,2023-05-19 00:41:25,2023-05-19 00:41:26,0.373s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Welcome to Faspay Merchant Page/center_Incorrect EmailUsername or password""), 0)",Chrome 113.0.0.0,,,2023-05-19 00:41:26,2023-05-19 00:41:27,1.538s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-19 00:41:27,2023-05-19 00:41:27,0.251s,PASSED
